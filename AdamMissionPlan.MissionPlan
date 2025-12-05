@@ -2450,6 +2450,116 @@
         <metadata dim="0" />
       </ViewWindow>
     </Object>
+    <Object>
+      <ImpulsiveBurn name="ImpulsiveBurn4" isConstant="false" isGlobal="false">
+        <Name>ImpulsiveBurn4</Name>
+        <AttitudeSystem>1</AttitudeSystem>
+        <BurnDirection units="km/s" displayed_units="km/s" dim="3">
+          <value>3.007</value>
+          <value>0</value>
+          <value>0</value>
+        </BurnDirection>
+        <SpecificImpulse units="s" displayed_units="s">220.0</SpecificImpulse>
+        <ManeuverGravityConstant units="m/s^2" displayed_units="m/s^2">9.81</ManeuverGravityConstant>
+        <ManeuverOffsetTime units="s" displayed_units="s">0.0</ManeuverOffsetTime>
+        <ThrustScaleFactor units="" displayed_units="">1.0</ThrustScaleFactor>
+        <DeltaVOffsetDeltaX units="" displayed_units="">0.0</DeltaVOffsetDeltaX>
+        <DeltaVOffsetDeltaY units="" displayed_units="">0.0</DeltaVOffsetDeltaY>
+        <DeltaVScaleFactor units="" displayed_units="">1.0</DeltaVScaleFactor>
+        <OD>
+          <ImpulsiveBurnODProperties name="ImpulsiveBurn4_|ImpulsiveBurnODProperties|" isConstant="false" isGlobal="false">
+            <Name>ImpulsiveBurn4_|ImpulsiveBurnODProperties|</Name>
+            <DeltaVOffsetDeltaX>
+              <EstimableCoefficient name="ImpulsiveBurn4_|OD_DeltaVOffsetDeltaX|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn4_|OD_DeltaVOffsetDeltaX|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVOffsetDeltaX>
+            <DeltaVOffsetDeltaY>
+              <EstimableCoefficient name="ImpulsiveBurn4_|OD_DeltaVOffsetDeltaY|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn4_|OD_DeltaVOffsetDeltaY|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVOffsetDeltaY>
+            <DeltaVScaleFactor>
+              <EstimableCoefficient name="ImpulsiveBurn4_|OD_DeltaVScaleFactor|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn4_|OD_DeltaVScaleFactor|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVScaleFactor>
+            <metadata dim="0" />
+          </ImpulsiveBurnODProperties>
+        </OD>
+        <metadata dim="0" />
+      </ImpulsiveBurn>
+    </Object>
+    <Object>
+      <ImpulsiveBurn name="ImpulsiveBurn5" isConstant="false" isGlobal="false">
+        <Name>ImpulsiveBurn5</Name>
+        <AttitudeSystem>0</AttitudeSystem>
+        <BurnDirection units="km/s" displayed_units="km/s" dim="3">
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+        </BurnDirection>
+        <SpecificImpulse units="s" displayed_units="s">220.0</SpecificImpulse>
+        <ManeuverGravityConstant units="m/s^2" displayed_units="m/s^2">9.81</ManeuverGravityConstant>
+        <ManeuverOffsetTime units="s" displayed_units="s">0.0</ManeuverOffsetTime>
+        <ThrustScaleFactor units="" displayed_units="">1.0</ThrustScaleFactor>
+        <DeltaVOffsetDeltaX units="" displayed_units="">0.0</DeltaVOffsetDeltaX>
+        <DeltaVOffsetDeltaY units="" displayed_units="">0.0</DeltaVOffsetDeltaY>
+        <DeltaVScaleFactor units="" displayed_units="">1.0</DeltaVScaleFactor>
+        <OD>
+          <ImpulsiveBurnODProperties name="ImpulsiveBurn5_|ImpulsiveBurnODProperties|" isConstant="false" isGlobal="false">
+            <Name>ImpulsiveBurn5_|ImpulsiveBurnODProperties|</Name>
+            <DeltaVOffsetDeltaX>
+              <EstimableCoefficient name="ImpulsiveBurn5_|OD_DeltaVOffsetDeltaX|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn5_|OD_DeltaVOffsetDeltaX|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVOffsetDeltaX>
+            <DeltaVOffsetDeltaY>
+              <EstimableCoefficient name="ImpulsiveBurn5_|OD_DeltaVOffsetDeltaY|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn5_|OD_DeltaVOffsetDeltaY|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVOffsetDeltaY>
+            <DeltaVScaleFactor>
+              <EstimableCoefficient name="ImpulsiveBurn5_|OD_DeltaVScaleFactor|" isConstant="false" isGlobal="false">
+                <Name>ImpulsiveBurn5_|OD_DeltaVScaleFactor|</Name>
+                <ProcessAction>0</ProcessAction>
+                <Sigma units="" displayed_units="">0.05</Sigma>
+                <ProcessNoise units="" displayed_units="">1e-9</ProcessNoise>
+                <ProcessNoiseRate units="1/s" displayed_units="1/s">1e-10</ProcessNoiseRate>
+                <metadata dim="0" />
+              </EstimableCoefficient>
+            </DeltaVScaleFactor>
+            <metadata dim="0" />
+          </ImpulsiveBurnODProperties>
+        </OD>
+        <metadata dim="0" />
+      </ImpulsiveBurn>
+    </Object>
   </ProjectObjects>
   <ProjectMissionSequence>
     <ProjectExternals />
@@ -2546,6 +2656,9 @@ End;
 ImpulsiveBurn1.BurnDirection[0] = delta_v_LEO;
 Maneuver Spacecraft1 using ImpulsiveBurn1;
 
+Report @"Earth orbit departure delta V: \n  ",
+       delta_v_LEO.Format("%.3f"), " km/s" to Console;
+       
 While (Spacecraft1.Radius <= EarthSOI);
 	Step Spacecraft1;
 	Update ViewWindow1;
@@ -2554,7 +2667,7 @@ While (Spacecraft1.Radius <= EarthSOI);
 End;
 ]]></FreeFormScript>
       </FreeForm>
-      <FreeForm enabled="true">
+      <FreeForm enabled="false">
         <Label>Recursive targeting</Label>
         <Bookmarks />
         <Breakpoints />
@@ -2667,6 +2780,7 @@ Array cross12[3];
 Array vDepart[3];
 Array vArrival[3];
 Array deltaV_lambert_Earth;
+Array deltaV_lambert_Mars;
 
 Variable theta;
 Variable yOut;
@@ -2709,24 +2823,26 @@ departureVel = Spacecraft1.Velocity;
 // Fast-forward time to Mars arrival time
 Spacecraft1.Epoch += TimeSpan.FromSeconds(TOF*86400);
 
-// Get Mars position in the future, and target a point on its near side
+// Get Mars position in the future, and set target point
 targetPos = Spacecraft1.PlanetPosition(Mars.BodyID);
 Array sunToMarsUnitVector = targetPos.Normalized();
-targetPos += 5000 * sunToMarsUnitVector;  // 10000 km from Mars on the Sun side
+targetPos += 5000 * sunToMarsUnitVector;  // adjust target to be 5000 km from Mars center
 arrivalPos = targetPos;
 
-Report @"arrivalPos: \n  ", arrivalPos to Console;
+//Report @"targetPos: \n  ", targetPos to Console;
 
 // Reset time
 Spacecraft1.Epoch -= TimeSpan.FromSeconds(TOF*86400);
 	
 Variable i = 0;
 
+Report @"\nEARTH-MARS RECURSIVE LAMBERT TARGETING" to Console;
+
 // Recursively run Lambert targeting until the miss distance is less than 200 km
 While (delta_r_mag > 200);
 	
 	i += 1;
-	Report "RUN #", i to Console;
+	
 	//Report "departurePos = ", Spacecraft1.Position to Console;
 	//Report "departureVel = ", Spacecraft1.Velocity to Console;
 	//Report "DepartTime = ", Spacecraft1.Epoch to Console;
@@ -2820,9 +2936,7 @@ While (delta_r_mag > 200);
 	Maneuver Spacecraft1 using ImpulsiveBurn2;
 
 	//Report @"Departure delta V: \n  ", deltaV_lambert_Earth to Console;
-
-	Spacecraft1.Color = ColorTools.Green;
-
+	
 	// Step spacecraft. 
 	//Spacecraft1.CentralBody = "Mars";
 	currentEpoch = Spacecraft1.Epoch;
@@ -2836,7 +2950,7 @@ While (delta_r_mag > 200);
 	End; 
 
 	delta_r_mag = delta_r.Norm();
-	Report @"delta_r: \n  ", delta_r_mag to Console;
+	Report @"RUN #", i.Format("%.0f"), " | delta_r: ", delta_r_mag.Format("%.2f") to Console;
 
 	// Reset 
 	Spacecraft1.Position = departurePos;
@@ -2851,14 +2965,16 @@ While (delta_r_mag > 200);
 	
 End;
 
-// Propagate and visualizw the final trajectory
+// Propagate and visualize the final trajectory
+
+Spacecraft1.Color = ColorTools.Green;
 
 // Apply the final Lambert burn using the last vDepart
 deltaV_lambert_Earth = vDepart - Spacecraft1.Velocity;
 ImpulsiveBurn2.BurnDirection = deltaV_lambert_Earth;
 Maneuver Spacecraft1 using ImpulsiveBurn2;
 
-Report @"Final Departure delta V: \n  ", deltaV_lambert_Earth to Console;
+Report @"\nEarth-Mars Departure delta V: \n", deltaV_lambert_Earth.Norm(), " km/s" to Console;
 
 // Propagate for the final TOF and display trajectory
 TimeSpan epochAtTOFStart = Spacecraft1.Epoch;
@@ -2893,8 +3009,7 @@ End;
 
 // Report closest approach
 Report @"Closest approach to Deimos: ",
-       minRangeToDeimos.Format("%.3f"), " km at epoch ",
-       minRangeEpoch.ToString(), "\n" to Console;
+       minRangeToDeimos.Format("%.3f"), " km" to Console;
 
 
 //Report @"Final state at arrival epoch: \n  Position = ", Spacecraft1.Position,
@@ -2950,7 +3065,7 @@ ImpulsiveBurn3.BurnDirection[0] = dv[0];
 ImpulsiveBurn3.BurnDirection[1] = dv[1];
 ImpulsiveBurn3.BurnDirection[2] = dv[2];
 
-Report @"Actual Mars capture delta V: \n  ",
+Report @"Mars capture delta V: \n  ",
        delta_v_Mars_actual.Format("%.3f"), " km/s" to Console;
 
 Maneuver Spacecraft1 using ImpulsiveBurn3;
@@ -2963,16 +3078,277 @@ Report @"Circularized to Mars orbit of ",
        
 Spacecraft1.Color = ColorTools.Blue;
 
+// Propogate half a day at high fidelity (small time step)
 currentEpoch = Spacecraft1.Epoch;
-While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(30));
+While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(0.5));
 	Step Spacecraft1;
 	Update ViewWindow1;
 	Update ViewWindow2;
 	Update ViewWindow3;
 End;
-      
-Spacecraft1.Color = ColorTools.Blue;
+
+//Report @"Spacecraft eccentricity: ",
+//       Spacecraft1.E.Format("%.6f"), "\n" to Console;
+
+// Compute orbital period around Mars from current altitude
+Variable marsRadius    = Mars.Radius;             // km
+Variable altitudeMars  = Spacecraft1.Height;      // km above Mars[web:126]
+Variable a_orbit       = marsRadius + altitudeMars;  // semi-major axis (km)
+Variable periodSeconds = 2.0 * Constants.Pi * sqrt(a_orbit^3 / Mars.Mu);  // s[web:192][web:197]
+
+// Set step size to an integer multiple of the orbital period
+currentEpoch = Spacecraft1.Epoch;
+stepSize = TimeSpan.FromSeconds(periodSeconds*8);
+
+// Propagate 30 days in Mars orbit with larger step size (quicker computation times)
+While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(30));
+    Spacecraft1.Step(stepSize);
+    Update ViewWindow1;
+    Update ViewWindow2;
+    Update ViewWindow3;
+End;
+
+
+
 ]]></FreeFormScript>
+      </FreeForm>
+      <FreeForm enabled="true">
+        <Label>LeaveMarsOrbit</Label>
+        <Bookmarks />
+        <Breakpoints />
+        <FreeFormScript><![CDATA[Spacecraft1.CentralBody = "Mars";
+Variable MarsSOI = 578000;  // km
+TimeSpan mars_departure_time = "Dec 03 2033 00:30:00.000".ParseCalendarDate();
+
+// Propagate in Mars orbit 
+While (Spacecraft1.Epoch <= mars_departure_time);
+	Step Spacecraft1;
+	Update ViewWindow1;
+	Update ViewWindow2;
+	Update ViewWindow3;
+End;
+
+// Calculate delta-v
+v_target_Mars = sqrt(v_inf_Mars^2 + 2 * Mars.Mu / Spacecraft1.Height);
+Variable delta_v_Mars_departure = v_target_Mars - Spacecraft1.Velocity.Norm();
+
+// Burn to leave Mars SOI
+ImpulsiveBurn4.BurnDirection[0] = delta_v_Mars_departure;
+Maneuver Spacecraft1 using ImpulsiveBurn4;
+
+Report @"Mars orbit departure delta V: \n  ",
+       delta_v_Mars_departure.Format("%.3f"), " km/s" to Console;
+
+Spacecraft1.Color = ColorTools.Red;
+
+// Propagate until out of Mars SOI 
+While (Spacecraft1.Radius <= MarsSOI);
+	Step Spacecraft1;
+	Update ViewWindow1;
+	Update ViewWindow2;
+	Update ViewWindow3;
+End;
+
+//Spacecraft1.Color = ColorTools.Green;
+//
+//currentEpoch = Spacecraft1.Epoch;
+//stepSize = TimeSpan.FromSeconds(periodSeconds*8);
+//While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(371));
+//    Step Spacecraft1;
+//    Update ViewWindow1;
+//    Update ViewWindow2;
+//    Update ViewWindow3;
+//End;
+]]></FreeFormScript>
+      </FreeForm>
+      <FreeForm enabled="true">
+        <Label>VenusFlyby</Label>
+        <Bookmarks />
+        <Breakpoints />
+        <FreeFormScript><![CDATA[// Solve Lambert's Problem
+
+DepartTime = Spacecraft1.Epoch;
+TOF = 150 - (DepartTime - mars_departure_time).ToDays();
+TimeSpan earth_arrival_time = "Dec 08 2034 00:00:00.000".ParseCalendarDate();
+
+Spacecraft1.CentralBody = "Sun";
+//Spacecraft1.Epoch = DepartTime.ParseCalendarDate();
+
+// Get Earth position
+departurePos = Spacecraft1.Position;
+departureVel = Spacecraft1.Velocity;
+
+// Fast-forward time to Venus flyby time
+Spacecraft1.Epoch += TimeSpan.FromSeconds(TOF*86400);
+
+// Get Venus position in the future, and set target point
+targetPos = Spacecraft1.PlanetPosition(Venus.BodyID);
+Array venusVel = Spacecraft1.PlanetVelocity(Venus.BodyID);
+Array venusVelocityUnitVector = venusVel.Normalized();
+targetPos += 12900 * venusVelocityUnitVector;
+arrivalPos = targetPos;
+
+//Report @"targetPos: \n  ", targetPos to Console;
+
+// Reset time
+Spacecraft1.Epoch -= TimeSpan.FromSeconds(TOF*86400);
+	
+i = 0;
+delta_r_mag = 100000; // Reset to large value
+
+Report @"\nMARS-VENUS RECURSIVE LAMBERT TARGETING" to Console;
+
+// Recursively run Lambert targeting until the miss distance is less than threshold
+While (delta_r_mag > 200);
+	
+	i += 1;
+
+	//Report "departurePos = ", Spacecraft1.Position to Console;
+	//Report "departureVel = ", Spacecraft1.Velocity to Console;
+	//Report "DepartTime = ", Spacecraft1.Epoch to Console;
+	
+	Spacecraft1.CentralBody = "Sun";
+	TOF *= 86400;
+	
+	// UPDATE TARGET POSITION (arrivalPos)
+	gain = 0.75; // can adjust gain to prevent overcorrections to the target position
+	arrivalPos -= gain * delta_r;
+	//Report @"arrivalPos: \n  ", arrivalPos to Console;
+
+	// Call Lambert algorithm
+	// Magnitudes of position vectors
+	varR1 = departurePos.Norm();
+	varR2 = arrivalPos.Norm();
+
+	// Calculate cross product to determine orbit direction and calculate transfer angle
+	cross12 = departurePos.CrossProduct(arrivalPos);
+	theta = departurePos.VertexAngle(arrivalPos);
+
+	// Change initial theta to adjust orbit direction
+	If (IsPrograde == 1);
+		If (cross12[2] < 0);
+			theta = 360 - theta;
+		End;
+	ElseIf (IsPrograde == 0);
+		If (cross12[2] >= 0);
+			theta = 360 - theta;
+		End;
+	End;
+
+	Const = sin(rad(theta))*sqrt(varR1*varR2/(1 - cos(rad(theta))));
+	fOut = -1;
+
+	ratio = 1;
+	z = -50;
+	// Determine when the F-function crosses 0 to determine an initial z value for easier convergence 
+	While (fOut < 0);
+
+		Call Ffunc(z, TOF, fOut);
+
+		// Errors encountered are due to imaginary numbers in the F-function solution.
+		// Increasing the z value at a faster rate if errors.
+		If (ErrCount > 0);
+			z++;
+			ErrCount = 0;
+		Else;
+			z += 0.1;
+		End;
+	End;
+
+	// Iterate the F-function using Newtons algorithm to find a solution for Lamberts problem
+	n = 0;
+	While ((abs(ratio) > tol) and (n <= nMax));
+
+		Call Ffunc(z, TOF, fOut);
+		Call dFfunc(z, dFOut);
+		ratio = fOut/dFOut;
+		n++;
+		z -= ratio;
+
+	End;
+
+	If (nMax <= n);
+		Console.CurrentTextColor = ColorTools.Red;
+		Report "Maximum number of iterations reached, no solution found. Stopping mission plan." to Console;
+		Stop;
+	End;
+
+	Call Yfunc(z,yOut);
+
+	// Solve the f, g, and gdot functions to determine departure and arrival velocities.
+	f = 1 - yOut/varR1;
+	g = Const*sqrt(yOut/Mu);
+	gdot = 1 - yOut/varR2;
+
+	vDepart = 1/g*(arrivalPos - f*departurePos);
+	vArrival = 1/g*(gdot*arrivalPos - departurePos);
+
+	// Seconds back to days
+	TOF /= 86400;
+
+	//Report @"\nDeparture date: \n  ", Spacecraft1.Epoch.ConvertToCalendarDate() to Console;
+	//Report @"Arrival date: \n  ", (Spacecraft1.Epoch + TimeSpan.FromDays(TOF)).ConvertToCalendarDate() to Console;
+	//Report "Time of flight: ", TOF<8,1>, @" days\n" to Console;
+
+	// Maneuver with Lambert burn (in ICRF, not VNB)
+	deltaV_lambert_Mars = vDepart - Spacecraft1.Velocity;
+	ImpulsiveBurn5.BurnDirection = deltaV_lambert_Mars;
+	Maneuver Spacecraft1 using ImpulsiveBurn5;
+
+	//Report @"Departure delta V: \n  ", deltaV_lambert_Mars to Console;
+
+	// Step spacecraft. 
+	//Spacecraft1.CentralBody = "Mars";
+	currentEpoch = Spacecraft1.Epoch;
+	While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(TOF));
+		Step Spacecraft1;
+		//Update ViewWindow1;
+		//Update ViewWindow2;
+		//Update ViewWindow3;
+		
+		delta_r = Spacecraft1.Position - targetPos;
+	End; 
+
+	delta_r_mag = delta_r.Norm();
+	Report @"RUN #", i.Format("%.0f"), " | delta_r: ", delta_r_mag.Format("%.2f"), " km" to Console;
+
+	// Reset 
+	Spacecraft1.Position = departurePos;
+	Spacecraft1.Velocity = departureVel;
+	Spacecraft1.Epoch = DepartTime;
+	
+	If (i >= nMax);
+		Console.CurrentTextColor = ColorTools.Red;
+		Report "Maximum number of Lambert targetign iterations reached, no solution found. Stopping mission plan." to Console;
+		Stop;
+	End;
+	
+End;
+
+// Propagate and visualize the final trajectory
+
+Spacecraft1.Color = ColorTools.Green;
+
+// Apply the Mars-Venus burn using the last vDepart
+deltaV_lambert_Mars = vDepart - Spacecraft1.Velocity;
+ImpulsiveBurn5.BurnDirection = deltaV_lambert_Mars;
+Maneuver Spacecraft1 using ImpulsiveBurn5;
+
+Report @"\nMars-Venus Departure delta V: \n", deltaV_lambert_Mars.Norm(), " km/s" to Console;
+
+// Propagate until the desired Earth arrival time
+currentEpoch = Spacecraft1.Epoch;
+While (Spacecraft1.Epoch <= earth_arrival_time);
+    Step Spacecraft1; 
+    Update ViewWindow1;
+    Update ViewWindow2;
+    Update ViewWindow3;
+End;
+
+// Calculate and display miss distance from Earth
+Array earth_miss = Spacecraft1.Position - Spacecraft1.PlanetPosition(Earth.BodyID);
+Report @"Earth miss distance: \n", earth_miss.Norm(), " km" to Console;
+//Report @"Earth miss vector: \n", earth_miss to Console;]]></FreeFormScript>
       </FreeForm>
     </ProjectCommands>
   </ProjectMissionSequence>
@@ -3054,6 +3430,9 @@ End;
 ImpulsiveBurn1.BurnDirection[0] = delta_v_LEO;
 Maneuver Spacecraft1 using ImpulsiveBurn1;
 
+Report @"Earth orbit departure delta V: \n  ",
+       delta_v_LEO.Format("%.3f"), " km/s" to Console;
+       
 While (Spacecraft1.Radius <= EarthSOI);
 	Step Spacecraft1;
 	Update ViewWindow1;
@@ -3061,7 +3440,7 @@ While (Spacecraft1.Radius <= EarthSOI);
 	Update ViewWindow3;
 End;
 
-
+// 
 // Define Globals and Procedures
 
 Global Variable varR1;///Departure position magnitude
@@ -3160,6 +3539,7 @@ Array cross12[3];
 Array vDepart[3];
 Array vArrival[3];
 Array deltaV_lambert_Earth;
+Array deltaV_lambert_Mars;
 
 Variable theta;
 Variable yOut;
@@ -3197,24 +3577,26 @@ departureVel = Spacecraft1.Velocity;
 // Fast-forward time to Mars arrival time
 Spacecraft1.Epoch += TimeSpan.FromSeconds(TOF*86400);
 
-// Get Mars position in the future, and target a point on its near side
+// Get Mars position in the future, and set target point
 targetPos = Spacecraft1.PlanetPosition(Mars.BodyID);
 Array sunToMarsUnitVector = targetPos.Normalized();
-targetPos += 5000 * sunToMarsUnitVector;  // 10000 km from Mars on the Sun side
+targetPos += 5000 * sunToMarsUnitVector;  // adjust target to be 5000 km from Mars center
 arrivalPos = targetPos;
 
-Report @"arrivalPos: \n  ", arrivalPos to Console;
+//Report @"targetPos: \n  ", targetPos to Console;
 
 // Reset time
 Spacecraft1.Epoch -= TimeSpan.FromSeconds(TOF*86400);
 	
 Variable i = 0;
 
+Report @"\nEARTH-MARS RECURSIVE LAMBERT TARGETING" to Console;
+
 // Recursively run Lambert targeting until the miss distance is less than 200 km
 While (delta_r_mag > 200);
 	
 	i += 1;
-	Report "RUN #", i to Console;
+	
 	//Report "departurePos = ", Spacecraft1.Position to Console;
 	//Report "departureVel = ", Spacecraft1.Velocity to Console;
 	//Report "DepartTime = ", Spacecraft1.Epoch to Console;
@@ -3308,9 +3690,7 @@ While (delta_r_mag > 200);
 	Maneuver Spacecraft1 using ImpulsiveBurn2;
 
 	//Report @"Departure delta V: \n  ", deltaV_lambert_Earth to Console;
-
-	Spacecraft1.Color = ColorTools.Green;
-
+	
 	// Step spacecraft. 
 	//Spacecraft1.CentralBody = "Mars";
 	currentEpoch = Spacecraft1.Epoch;
@@ -3324,7 +3704,7 @@ While (delta_r_mag > 200);
 	End; 
 
 	delta_r_mag = delta_r.Norm();
-	Report @"delta_r: \n  ", delta_r_mag to Console;
+	Report @"RUN #", i.Format("%.0f"), " | delta_r: ", delta_r_mag.Format("%.2f") to Console;
 
 	// Reset 
 	Spacecraft1.Position = departurePos;
@@ -3339,14 +3719,16 @@ While (delta_r_mag > 200);
 	
 End;
 
-// Propagate and visualizw the final trajectory
+// Propagate and visualize the final trajectory
+
+Spacecraft1.Color = ColorTools.Green;
 
 // Apply the final Lambert burn using the last vDepart
 deltaV_lambert_Earth = vDepart - Spacecraft1.Velocity;
 ImpulsiveBurn2.BurnDirection = deltaV_lambert_Earth;
 Maneuver Spacecraft1 using ImpulsiveBurn2;
 
-Report @"Final Departure delta V: \n  ", deltaV_lambert_Earth to Console;
+Report @"\nEarth-Mars Departure delta V: \n", deltaV_lambert_Earth.Norm(), " km/s" to Console;
 
 // Propagate for the final TOF and display trajectory
 TimeSpan epochAtTOFStart = Spacecraft1.Epoch;
@@ -3381,8 +3763,7 @@ End;
 
 // Report closest approach
 Report @"Closest approach to Deimos: ",
-       minRangeToDeimos.Format("%.3f"), " km at epoch ",
-       minRangeEpoch.ToString(), "\n" to Console;
+       minRangeToDeimos.Format("%.3f"), " km" to Console;
 
 
 //Report @"Final state at arrival epoch: \n  Position = ", Spacecraft1.Position,
@@ -3433,7 +3814,7 @@ ImpulsiveBurn3.BurnDirection[0] = dv[0];
 ImpulsiveBurn3.BurnDirection[1] = dv[1];
 ImpulsiveBurn3.BurnDirection[2] = dv[2];
 
-Report @"Actual Mars capture delta V: \n  ",
+Report @"Mars capture delta V: \n  ",
        delta_v_Mars_actual.Format("%.3f"), " km/s" to Console;
 
 Maneuver Spacecraft1 using ImpulsiveBurn3;
@@ -3446,15 +3827,266 @@ Report @"Circularized to Mars orbit of ",
        
 Spacecraft1.Color = ColorTools.Blue;
 
+// Propogate half a day at high fidelity (small time step)
 currentEpoch = Spacecraft1.Epoch;
-While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(30));
+While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(0.5));
 	Step Spacecraft1;
 	Update ViewWindow1;
 	Update ViewWindow2;
 	Update ViewWindow3;
 End;
-      
-Spacecraft1.Color = ColorTools.Blue;
-]]></ProjectScript>
+
+//Report @"Spacecraft eccentricity: ",
+//       Spacecraft1.E.Format("%.6f"), "\n" to Console;
+
+// Compute orbital period around Mars from current altitude
+Variable marsRadius    = Mars.Radius;             // km
+Variable altitudeMars  = Spacecraft1.Height;      // km above Mars[web:126]
+Variable a_orbit       = marsRadius + altitudeMars;  // semi-major axis (km)
+Variable periodSeconds = 2.0 * Constants.Pi * sqrt(a_orbit^3 / Mars.Mu);  // s[web:192][web:197]
+
+// Set step size to an integer multiple of the orbital period
+currentEpoch = Spacecraft1.Epoch;
+stepSize = TimeSpan.FromSeconds(periodSeconds*8);
+
+// Propagate 30 days in Mars orbit with larger step size (quicker computation times)
+While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(30));
+    Spacecraft1.Step(stepSize);
+    Update ViewWindow1;
+    Update ViewWindow2;
+    Update ViewWindow3;
+End;
+
+
+
+
+Spacecraft1.CentralBody = "Mars";
+Variable MarsSOI = 578000;  // km
+TimeSpan mars_departure_time = "Dec 03 2033 00:30:00.000".ParseCalendarDate();
+
+// Propagate in Mars orbit 
+While (Spacecraft1.Epoch <= mars_departure_time);
+	Step Spacecraft1;
+	Update ViewWindow1;
+	Update ViewWindow2;
+	Update ViewWindow3;
+End;
+
+// Calculate delta-v
+v_target_Mars = sqrt(v_inf_Mars^2 + 2 * Mars.Mu / Spacecraft1.Height);
+Variable delta_v_Mars_departure = v_target_Mars - Spacecraft1.Velocity.Norm();
+
+// Burn to leave Mars SOI
+ImpulsiveBurn4.BurnDirection[0] = delta_v_Mars_departure;
+Maneuver Spacecraft1 using ImpulsiveBurn4;
+
+Report @"Mars orbit departure delta V: \n  ",
+       delta_v_Mars_departure.Format("%.3f"), " km/s" to Console;
+
+Spacecraft1.Color = ColorTools.Red;
+
+// Propagate until out of Mars SOI 
+While (Spacecraft1.Radius <= MarsSOI);
+	Step Spacecraft1;
+	Update ViewWindow1;
+	Update ViewWindow2;
+	Update ViewWindow3;
+End;
+
+//Spacecraft1.Color = ColorTools.Green;
+//
+//currentEpoch = Spacecraft1.Epoch;
+//stepSize = TimeSpan.FromSeconds(periodSeconds*8);
+//While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(371));
+//    Step Spacecraft1;
+//    Update ViewWindow1;
+//    Update ViewWindow2;
+//    Update ViewWindow3;
+//End;
+
+// Solve Lambert's Problem
+
+DepartTime = Spacecraft1.Epoch;
+TOF = 150 - (DepartTime - mars_departure_time).ToDays();
+TimeSpan earth_arrival_time = "Dec 08 2034 00:00:00.000".ParseCalendarDate();
+
+Spacecraft1.CentralBody = "Sun";
+//Spacecraft1.Epoch = DepartTime.ParseCalendarDate();
+
+// Get Earth position
+departurePos = Spacecraft1.Position;
+departureVel = Spacecraft1.Velocity;
+
+// Fast-forward time to Venus flyby time
+Spacecraft1.Epoch += TimeSpan.FromSeconds(TOF*86400);
+
+// Get Venus position in the future, and set target point
+targetPos = Spacecraft1.PlanetPosition(Venus.BodyID);
+Array venusVel = Spacecraft1.PlanetVelocity(Venus.BodyID);
+Array venusVelocityUnitVector = venusVel.Normalized();
+targetPos += 12900 * venusVelocityUnitVector;
+arrivalPos = targetPos;
+
+//Report @"targetPos: \n  ", targetPos to Console;
+
+// Reset time
+Spacecraft1.Epoch -= TimeSpan.FromSeconds(TOF*86400);
+	
+i = 0;
+delta_r_mag = 100000; // Reset to large value
+
+Report @"\nMARS-VENUS RECURSIVE LAMBERT TARGETING" to Console;
+
+// Recursively run Lambert targeting until the miss distance is less than threshold
+While (delta_r_mag > 200);
+	
+	i += 1;
+
+	//Report "departurePos = ", Spacecraft1.Position to Console;
+	//Report "departureVel = ", Spacecraft1.Velocity to Console;
+	//Report "DepartTime = ", Spacecraft1.Epoch to Console;
+	
+	Spacecraft1.CentralBody = "Sun";
+	TOF *= 86400;
+	
+	// UPDATE TARGET POSITION (arrivalPos)
+	gain = 0.75; // can adjust gain to prevent overcorrections to the target position
+	arrivalPos -= gain * delta_r;
+	//Report @"arrivalPos: \n  ", arrivalPos to Console;
+
+	// Call Lambert algorithm
+	// Magnitudes of position vectors
+	varR1 = departurePos.Norm();
+	varR2 = arrivalPos.Norm();
+
+	// Calculate cross product to determine orbit direction and calculate transfer angle
+	cross12 = departurePos.CrossProduct(arrivalPos);
+	theta = departurePos.VertexAngle(arrivalPos);
+
+	// Change initial theta to adjust orbit direction
+	If (IsPrograde == 1);
+		If (cross12[2] < 0);
+			theta = 360 - theta;
+		End;
+	ElseIf (IsPrograde == 0);
+		If (cross12[2] >= 0);
+			theta = 360 - theta;
+		End;
+	End;
+
+	Const = sin(rad(theta))*sqrt(varR1*varR2/(1 - cos(rad(theta))));
+	fOut = -1;
+
+	ratio = 1;
+	z = -50;
+	// Determine when the F-function crosses 0 to determine an initial z value for easier convergence 
+	While (fOut < 0);
+
+		Call Ffunc(z, TOF, fOut);
+
+		// Errors encountered are due to imaginary numbers in the F-function solution.
+		// Increasing the z value at a faster rate if errors.
+		If (ErrCount > 0);
+			z++;
+			ErrCount = 0;
+		Else;
+			z += 0.1;
+		End;
+	End;
+
+	// Iterate the F-function using Newtons algorithm to find a solution for Lamberts problem
+	n = 0;
+	While ((abs(ratio) > tol) and (n <= nMax));
+
+		Call Ffunc(z, TOF, fOut);
+		Call dFfunc(z, dFOut);
+		ratio = fOut/dFOut;
+		n++;
+		z -= ratio;
+
+	End;
+
+	If (nMax <= n);
+		Console.CurrentTextColor = ColorTools.Red;
+		Report "Maximum number of iterations reached, no solution found. Stopping mission plan." to Console;
+		Stop;
+	End;
+
+	Call Yfunc(z,yOut);
+
+	// Solve the f, g, and gdot functions to determine departure and arrival velocities.
+	f = 1 - yOut/varR1;
+	g = Const*sqrt(yOut/Mu);
+	gdot = 1 - yOut/varR2;
+
+	vDepart = 1/g*(arrivalPos - f*departurePos);
+	vArrival = 1/g*(gdot*arrivalPos - departurePos);
+
+	// Seconds back to days
+	TOF /= 86400;
+
+	//Report @"\nDeparture date: \n  ", Spacecraft1.Epoch.ConvertToCalendarDate() to Console;
+	//Report @"Arrival date: \n  ", (Spacecraft1.Epoch + TimeSpan.FromDays(TOF)).ConvertToCalendarDate() to Console;
+	//Report "Time of flight: ", TOF<8,1>, @" days\n" to Console;
+
+	// Maneuver with Lambert burn (in ICRF, not VNB)
+	deltaV_lambert_Mars = vDepart - Spacecraft1.Velocity;
+	ImpulsiveBurn5.BurnDirection = deltaV_lambert_Mars;
+	Maneuver Spacecraft1 using ImpulsiveBurn5;
+
+	//Report @"Departure delta V: \n  ", deltaV_lambert_Mars to Console;
+
+	// Step spacecraft. 
+	//Spacecraft1.CentralBody = "Mars";
+	currentEpoch = Spacecraft1.Epoch;
+	While (Spacecraft1.Epoch <= currentEpoch + TimeSpan.FromDays(TOF));
+		Step Spacecraft1;
+		//Update ViewWindow1;
+		//Update ViewWindow2;
+		//Update ViewWindow3;
+		
+		delta_r = Spacecraft1.Position - targetPos;
+	End; 
+
+	delta_r_mag = delta_r.Norm();
+	Report @"RUN #", i.Format("%.0f"), " | delta_r: ", delta_r_mag.Format("%.2f"), " km" to Console;
+
+	// Reset 
+	Spacecraft1.Position = departurePos;
+	Spacecraft1.Velocity = departureVel;
+	Spacecraft1.Epoch = DepartTime;
+	
+	If (i >= nMax);
+		Console.CurrentTextColor = ColorTools.Red;
+		Report "Maximum number of Lambert targetign iterations reached, no solution found. Stopping mission plan." to Console;
+		Stop;
+	End;
+	
+End;
+
+// Propagate and visualize the final trajectory
+
+Spacecraft1.Color = ColorTools.Green;
+
+// Apply the Mars-Venus burn using the last vDepart
+deltaV_lambert_Mars = vDepart - Spacecraft1.Velocity;
+ImpulsiveBurn5.BurnDirection = deltaV_lambert_Mars;
+Maneuver Spacecraft1 using ImpulsiveBurn5;
+
+Report @"\nMars-Venus Departure delta V: \n", deltaV_lambert_Mars.Norm(), " km/s" to Console;
+
+// Propagate until the desired Earth arrival time
+currentEpoch = Spacecraft1.Epoch;
+While (Spacecraft1.Epoch <= earth_arrival_time);
+    Step Spacecraft1; 
+    Update ViewWindow1;
+    Update ViewWindow2;
+    Update ViewWindow3;
+End;
+
+// Calculate and display miss distance from Earth
+Array earth_miss = Spacecraft1.Position - Spacecraft1.PlanetPosition(Earth.BodyID);
+Report @"Earth miss distance: \n", earth_miss.Norm(), " km" to Console;
+//Report @"Earth miss vector: \n", earth_miss to Console;]]></ProjectScript>
   <ProjectNotes></ProjectNotes>
 </FreeFlyerProjectFile>
